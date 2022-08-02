@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.modal {
+  background-color: rgb(40 53 67);
+  display: none;
+  width: 354px;
+  height: 206px;
+  text-align: center;
+  font-size: 25px;
+  position: absolute;
+  top: 84px;
+  left: 445px;
+}
+
+.play-again {
+  /* background-color: #0050a080; */
+  background-color: blue;
+  border: blue;
+  color: #d3c6ad;
+  position: absolute;
+  text-align: center;
+  cursor: pointer;
+  font-size: 30px;
+  width: 350px;
+  height: 70px;
+  top: 100px;
+  left: 2px;
+}
+.play-again:hover {
+  color: slategray;
+  height: 105px;
+}
